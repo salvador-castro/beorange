@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  --brown: #1A0A0A;
+  --brown-mid: #2B1010;
+  --orange: #F5A623;
+  --orange-red: #E8622A;
+  --cream: #F0E2C0;
+  --cream-dim: rgba(240, 226, 192, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--brown);
+  font-family: 'Barlow', sans-serif;
+  overflow-x: hidden;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-20px) scale(1.03); }
+}
+
+@keyframes float-slow-reverse {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(20px) scale(0.97); }
+}
+
+@keyframes orbit-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 0.3; }
+}
+
+.animate-float { animation: float-slow 8s ease-in-out infinite; }
+.animate-float-rev { animation: float-slow-reverse 10s ease-in-out infinite; }
+.animate-orbit { animation: orbit-rotate 30s linear infinite; }
+.animate-fade-up { animation: fade-up 0.9s ease-out forwards; }
+.animate-pulse-glow { animation: pulse-glow 4s ease-in-out infinite; }
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+.delay-600 { animation-delay: 0.6s; }
+.delay-700 { animation-delay: 0.7s; }
+
+.noise::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 100;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+
+.countdown-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 72px;
+}
+
+.countdown-number {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 900;
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  line-height: 1;
+  color: var(--orange);
+  letter-spacing: -2px;
+}
+
+.countdown-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: var(--cream-dim);
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.sep {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 900;
+  font-size: clamp(2rem, 6vw, 4rem);
+  color: var(--orange-red);
+  opacity: 0.5;
+  line-height: 1;
+  padding-bottom: 1.2rem;
+}
+
+.notify-input {
+  background: rgba(240, 226, 192, 0.07);
+  border: 1px solid rgba(240, 226, 192, 0.2);
+  color: var(--cream);
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.notify-input::placeholder {
+  color: rgba(240, 226, 192, 0.35);
+}
+
+.notify-input:focus {
+  border-color: rgba(245, 166, 35, 0.6);
+}
+
+.notify-btn {
+  background: linear-gradient(135deg, var(--orange) 0%, var(--orange-red) 100%);
+  color: #1A0A0A;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: opacity 0.2s, transform 0.15s;
+  cursor: pointer;
+}
+
+.notify-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(240, 226, 192, 0.2);
+  color: var(--cream-dim);
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+
+.social-link:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+  background: rgba(245, 166, 35, 0.1);
+}
