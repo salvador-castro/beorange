@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="w-full min-h-screen bg-[var(--color-brand-cream)] text-[var(--color-brand-dark)] font-barlow">
+    <div className="w-full min-h-screen bg-[var(--color-brand-cream)] text-[var(--color-brand-dark)] font-inter">
       <Navbar />
       <Hero />
       <About />

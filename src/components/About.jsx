@@ -16,7 +16,7 @@ export default function About() {
 
         {/* Left Column */}
         <div className="flex-1 flex flex-col justify-between relative z-20 pb-48 md:pb-0">
-          <h2 className="font-barlow text-2xl md:text-3xl font-medium">
+          <h2 className="font-inter text-2xl md:text-3xl font-medium">
             ¿Quiénes somos?
           </h2>
           

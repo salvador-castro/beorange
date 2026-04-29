@@ -7,12 +7,12 @@ export default function Sponsors() {
       <div className="max-w-6xl mx-auto">
         <div className="flex justify-center items-center gap-3 mb-4">
           <span className="w-2 h-2 rounded-full bg-[var(--color-brand-orange)] inline-block"></span>
-          <p className="font-barlow-condensed font-bold text-sm tracking-[0.3em] uppercase text-[var(--color-brand-orange)]">
+          <p className="font-lexend font-bold text-sm tracking-[0.3em] uppercase text-[var(--color-brand-orange)]">
             Nuestros Patrocinadores
           </p>
           <span className="w-2 h-2 rounded-full bg-[var(--color-brand-orange)] inline-block"></span>
         </div>
-        <h2 className="font-barlow-condensed font-black text-4xl md:text-5xl text-[var(--color-brand-dark)] uppercase tracking-widest mb-4">
+        <h2 className="font-lexend font-black text-4xl md:text-5xl text-[var(--color-brand-dark)] uppercase tracking-widest mb-4">
           Marcas que mueven
           <br className="hidden md:block" /> la innovación
         </h2>

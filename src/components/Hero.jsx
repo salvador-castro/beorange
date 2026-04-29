@@ -13,23 +13,23 @@ export default function Hero() {
         <source src="/videos/hero.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0 bg-[#d85114]/40 mix-blend-multiply z-10"></div>
-      <div className="absolute inset-0 bg-[#0a0504]/60 z-10"></div>
+      <div className="absolute inset-0 bg-[#0a0504]/30 z-10"></div>
 
       <div className="relative z-20 flex flex-col items-center max-w-4xl mx-auto px-6 py-24 pt-32">
-        <div className="flex items-center gap-4 mb-2">
+        <div className="flex items-center gap-4 mb-2 mt-12 md:mt-16">
           <img
             src="/logos/roderich/logoRoderich.png"
             alt="Roderich"
             className="h-8 md:h-10 brightness-0 invert"
           />
-          <span className="text-white font-barlow text-2xl md:text-3xl font-light italic">&</span>
+          <span className="text-white font-inter text-xs font-light self-end mb-1">&</span>
           <img
             src="/logos/plugin/logoPlugin.png"
             alt="Plugin"
             className="h-7 md:h-9 brightness-0 invert"
           />
         </div>
-        <p className="text-white font-barlow text-xl md:text-2xl mb-8">
+        <p className="text-white font-inter text-xl md:text-2xl mb-8">
           Presentan:
         </p>
 
@@ -39,11 +39,11 @@ export default function Hero() {
           className="w-full max-w-[80%] md:max-w-4xl mb-4 drop-shadow-lg"
         />
 
-        <p className="text-white font-barlow uppercase tracking-[0.2em] md:tracking-[0.3em] text-xl md:text-2xl mb-6 font-medium">
+        <p className="text-white font-inter uppercase tracking-[0.2em] md:tracking-[0.3em] text-xl md:text-2xl mb-6 font-medium">
           The Bitcoiners Meeting
         </p>
 
-        <p className="text-white font-barlow font-light text-5xl md:text-6xl tracking-[0.4em] md:tracking-[0.6em] leading-none mb-12 drop-shadow-md">
+        <p className="text-white font-inter font-light text-5xl md:text-6xl tracking-[0.4em] md:tracking-[0.6em] leading-none mb-12 drop-shadow-md">
           2026
         </p>
 
@@ -58,7 +58,7 @@ export default function Hero() {
           href={REGISTER_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#f4ebd8] text-[#190808] font-barlow font-medium text-lg px-10 py-3 rounded-full hover:-translate-y-1 hover:bg-white transition-all duration-300 shadow-xl"
+          className="bg-brand-cream text-brand-dark font-inter font-medium text-lg px-10 py-3 rounded-full hover:-translate-y-1 hover:bg-white transition-all duration-300 shadow-xl"
         >
           Regístrate Gratis
         </a>

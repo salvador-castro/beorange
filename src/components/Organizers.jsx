@@ -4,7 +4,7 @@ export default function Organizers() {
   return (
     <section className="bg-[#140a08] text-white py-24 px-6 border-t-4 border-[#241310] w-full">
       <div className="max-w-4xl mx-auto">
-        <p className="text-center font-barlow-condensed text-sm tracking-[0.4em] uppercase text-gray-500 mb-16">
+        <p className="text-center font-lexend text-sm tracking-[0.4em] uppercase text-gray-500 mb-16">
           Organizado por
         </p>
         <div className="flex flex-col md:flex-row justify-center items-start gap-16 md:gap-32">

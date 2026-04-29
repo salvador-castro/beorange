@@ -3,7 +3,7 @@ export default function EventCards() {
     <section id="evento" className="py-24 px-6 w-full">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-[var(--color-brand-orange)] rounded-[2rem] p-10 flex flex-col justify-center items-center text-center md:h-80 text-[#1f110c] shadow-xl hover:-translate-y-2 transition-transform duration-300">
-          <h3 className="font-barlow-condensed font-black text-3xl uppercase tracking-widest mb-4 leading-tight">
+          <h3 className="font-lexend font-black text-3xl uppercase tracking-widest mb-4 leading-tight">
             Be Orange:
             <br />
             The Bitcoiner's Meeting

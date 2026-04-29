@@ -3,7 +3,7 @@ export default function SponsorTier({ title, items }) {
     <div className="w-full">
       <div className="flex items-center justify-center gap-4 mb-10">
         <div className="h-px bg-gray-300 flex-1 max-w-[100px]"></div>
-        <h3 className="font-barlow-condensed font-bold text-base tracking-[0.3em] uppercase text-gray-400">
+        <h3 className="font-lexend font-bold text-base tracking-[0.3em] uppercase text-gray-400">
           {title}
         </h3>
         <div className="h-px bg-gray-300 flex-1 max-w-[100px]"></div>

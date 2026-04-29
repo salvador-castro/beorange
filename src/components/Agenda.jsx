@@ -16,7 +16,7 @@ export default function Agenda() {
           />
         </div>
         <div className="flex-1 w-full max-w-2xl">
-          <h2 className="font-barlow-condensed font-black text-5xl md:text-7xl uppercase tracking-wider text-[#1f110c] drop-shadow-sm mb-12 text-center md:text-left">
+          <h2 className="font-lexend font-black text-5xl md:text-7xl uppercase tracking-wider text-[#1f110c] drop-shadow-sm mb-12 text-center md:text-left">
             Agenda
           </h2>
           <div className="flex flex-col gap-6 w-full">
@@ -25,7 +25,7 @@ export default function Agenda() {
                 key={item.time}
                 className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-8 border-b-2 border-[#1f110c]/15 pb-6 last:border-0 group hover:border-[#1f110c]/40 transition-colors"
               >
-                <span className="font-barlow-condensed font-black text-3xl md:text-4xl text-[#1f110c] w-24 shrink-0 group-hover:scale-105 transition-transform origin-left text-center sm:text-left">
+                <span className="font-lexend font-black text-3xl md:text-4xl text-[#1f110c] w-24 shrink-0 group-hover:scale-105 transition-transform origin-left text-center sm:text-left">
                   {item.time}
                 </span>
                 <span className="font-semibold text-xl md:text-2xl text-[#1f110c]/90 text-center sm:text-left">

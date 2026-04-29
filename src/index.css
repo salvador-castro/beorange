@@ -1,4 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap');
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('./assets/fonts/Lexend/Lexend-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 @import "tailwindcss";
 
 @theme {
@@ -9,14 +29,14 @@
   --color-brand-cream: #f4ebd8;
   --color-brand-lightcream: #f9f5ec;
   
-  --font-barlow-condensed: 'Barlow Condensed', sans-serif;
-  --font-barlow: 'Barlow', sans-serif;
+  --font-lexend: 'Lexend', sans-serif;
+  --font-inter: 'Inter', sans-serif;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+
 
 body {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: var(--color-brand-cream);
   color: var(--color-brand-dark);
   overflow-x: hidden;
@@ -52,7 +72,7 @@ body {
   justify-content: center;
   background-color: #fff;
   color: var(--color-brand-dark);
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Lexend', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.1em;
