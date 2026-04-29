@@ -13,11 +13,13 @@ export default function Organizers() {
               key={org.alt}
               className="flex flex-col items-center md:items-start max-w-sm text-center md:text-left"
             >
-              <img
-                src={org.logo}
-                alt={org.alt}
-                className="h-40 md:h-52 w-auto object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity mb-6"
-              />
+              <a href={org.url} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={org.logo}
+                  alt={org.alt}
+                  className="h-40 md:h-52 w-auto object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity mb-6"
+                />
+              </a>
               <p className="text-gray-400 text-xl md:text-2xl leading-relaxed">
                 {org.description}
               </p>

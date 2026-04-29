@@ -19,7 +19,7 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/ecosystemPartners/blockchainRIO.png", alt: "Blockchain RIO", heightClass: "h-16", maxWidth: "max-w-[180px]", url: "https://blockchainrio.com.br" },
       { src: "/patrocinadores/ecosystemPartners/bitcoinAR.png", alt: "Bitcoin AR", heightClass: "h-16", maxWidth: "max-w-[120px]", url: "https://bitcoin.ar" },
       { src: "/patrocinadores/ecosystemPartners/vendimiaTech.png", alt: "Vendimia Tech", heightClass: "h-16", maxWidth: "max-w-[180px]", url: "https://vendimiatech.com/" },
-{ src: "/patrocinadores/ecosystemPartners/criptoGuardian.png", alt: "Cripto Guardian", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://criptoguardian.com/" },
+      { src: "/patrocinadores/ecosystemPartners/criptoGuardian.png", alt: "Cripto Guardian", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://criptoguardian.com/" },
       { src: "/patrocinadores/ecosystemPartners/criptoSpace.png", alt: "Cripto Space", heightClass: "h-28", maxWidth: "max-w-[250px]", url: null },
       { src: "/patrocinadores/ecosystemPartners/escuelitaBitcoin.png", alt: "Escuelita Bitcoin", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://escuelitabitcoin.com/" },
     ],
