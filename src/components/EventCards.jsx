@@ -1,7 +1,7 @@
 export default function EventCards() {
   return (
-    <section id="evento" className="py-24 md:py-32 w-full">
-      <div className="max-w-[1920px] mx-auto px-6 md:px-8 lg:px-12 mb-12 md:mb-20 relative z-20">
+    <section id="evento" className="pt-8 md:pt-12 pb-8 md:pb-12 w-full">
+      <div className="max-w-[1920px] mx-auto px-6 md:px-8 lg:px-12 mb-6 md:mb-10 relative z-20">
         <h2 className="font-inter text-2xl md:text-3xl font-medium text-[#1f110c]">
           Evento
         </h2>
