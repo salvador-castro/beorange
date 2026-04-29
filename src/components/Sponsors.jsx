@@ -3,7 +3,7 @@ import SponsorTier from "./SponsorTier";
 
 export default function Sponsors() {
   return (
-    <section className="py-24 px-6 bg-brand-lightcream text-center w-full">
+    <section className="py-24 px-6 bg-[#F7E8D0] text-center w-full">
       <div className="max-w-6xl mx-auto">
         <div className="flex justify-center items-center gap-3 mb-4">
           <span className="w-2 h-2 rounded-full bg-brand-orange inline-block"></span>

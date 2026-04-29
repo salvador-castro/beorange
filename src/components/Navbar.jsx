@@ -2,7 +2,7 @@ import { NAV_LINKS, REGISTER_URL } from "../data/navigation";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-[#2a1410] h-20 md:h-24">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-[#301B1A] h-20 md:h-24">
       <div className="relative h-full w-full max-w-[1400px] mx-auto flex items-center justify-between px-6 md:px-12 lg:px-20">
         {/* Logo */}
         <a href="#" className="shrink-0">

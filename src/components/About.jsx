@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="quienes-somos"
-      className="bg-brand-brown text-brand-cream py-24 md:py-32 relative overflow-hidden"
+      className="bg-[#301C1B] text-brand-cream py-24 md:py-32 relative overflow-hidden"
     >
       {/* Background Graphic */}
       <div className="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 z-10 h-full pointer-events-none flex justify-center">

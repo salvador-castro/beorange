@@ -4,7 +4,7 @@ import { NAV_LINKS, REGISTER_URL } from "../data/navigation";
 export default function Footer() {
   return (
     <>
-      <section id="contacto" className="bg-[var(--color-brand-orange)] w-full py-16 relative overflow-hidden">
+      <section id="contacto" className="bg-[#F2902A] w-full py-16 relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-12 relative z-10">
           <div className="flex flex-col gap-12 w-full md:w-1/2">
             <h2 className="text-[#1f110c] text-lg font-medium">Contacto</h2>
@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
       </section>
 
-      <footer className="bg-[var(--color-brand-dark)] w-full text-gray-300">
+      <footer className="bg-[#0E0E0E] w-full text-gray-300">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             {/* Column 1: Links */}
@@ -104,7 +104,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="bg-[var(--color-brand-orange)] py-3 px-6 text-center text-white text-sm font-medium w-full shadow-inner">
+        <div className="bg-gradient-to-r from-[#E75515] to-[#812F0C] py-3 px-6 text-center text-white text-sm font-medium w-full shadow-inner">
           BE ORANGE — The Bitcoiners Meeting 24 de mayo de 2026 · Montevideo, Uruguay
         </div>
       </footer>

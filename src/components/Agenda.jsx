@@ -4,7 +4,7 @@ export default function Agenda() {
   return (
     <section
       id="agenda"
-      className="bg-brand-orange pt-12 pb-4 md:pt-24 md:pb-8 px-6 relative overflow-hidden shadow-inner w-full"
+      className="bg-[#F49630] pt-12 pb-4 md:pt-24 md:pb-8 px-6 relative overflow-hidden shadow-inner w-full"
     >
       <div className="absolute top-0 left-0 w-full h-4 bg-linear-to-b from-black/10 to-transparent"></div>
       <div className="w-full max-w-5xl mx-auto flex flex-col relative z-10">
