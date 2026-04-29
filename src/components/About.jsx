@@ -2,40 +2,40 @@ export default function About() {
   return (
     <section
       id="quienes-somos"
-      className="bg-[#241310] text-[#f4ebd8] py-24 md:py-32 px-6 relative overflow-hidden"
+      className="bg-brand-brown text-brand-cream py-24 md:py-32 relative overflow-hidden"
     >
-      <div className="max-w-[1920px] mx-auto px-8 md:px-16 lg:px-24 flex flex-col md:flex-row items-stretch justify-between relative min-h-[400px]">
-        {/* Background Graphic */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-full max-w-4xl opacity-80 pointer-events-none">
+      {/* Background Graphic */}
+      <div className="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 z-10 h-full pointer-events-none flex justify-center">
+        <img
+          src="/recursos/VectorQuienesSomos.png"
+          alt="Beorange Element"
+          className="h-full w-auto object-cover md:object-contain max-w-none opacity-90"
+        />
+      </div>
+
+      <div className="max-w-[1920px] mx-auto px-6 md:px-8 lg:px-12 mb-12 md:mb-20 relative z-20">
+        <h2 className="font-inter text-2xl md:text-3xl font-medium">
+          ¿Quiénes somos?
+        </h2>
+      </div>
+
+      <div className="max-w-[1920px] mx-auto px-6 md:px-8 lg:px-12 flex flex-col md:flex-row items-center justify-between relative min-h-[400px] gap-12 z-20">
+        {/* Left - Logo */}
+        <div className="flex-1 flex justify-center md:justify-start relative w-full">
           <img
-            src="/recursos/VectorQuienesSomos.png"
-            alt="Beorange Element"
-            className="w-full h-auto object-contain scale-150"
+            src="/logos/beorange/beorangelogo-subtitulo.png"
+            alt="Be Orange"
+            className="w-full max-w-[250px] md:max-w-[250px] lg:max-w-[550px] h-auto object-contain brightness-0 invert"
           />
         </div>
 
-        {/* Left Column */}
-        <div className="flex-1 flex flex-col justify-between relative z-20 pb-48 md:pb-0">
-          <h2 className="font-inter text-2xl md:text-3xl font-medium">
-            ¿Quiénes somos?
-          </h2>
-          
-          <div className="absolute -bottom-24 -left-12 md:-bottom-32 md:-left-24 w-[150%] max-w-3xl opacity-90 pointer-events-none">
-            <img
-              src="/logos/beorange/beorangelogo.png"
-              alt="Be Orange"
-              className="w-full h-auto object-contain brightness-0 invert opacity-20"
-            />
-          </div>
-        </div>
-
-        {/* Right Column */}
-        <div className="flex-1 flex flex-col justify-center max-w-2xl text-left relative z-20">
-          <p className="text-xl md:text-2xl leading-relaxed mb-6 font-medium">
-            Un día entero dedicado a Bitcoin, en Montevideo. Charlas, música y networking, abierto para todos en Argentina y la región.
+        {/* Right - Text */}
+        <div className="flex flex-col justify-center max-w-md lg:max-w-[450px] text-left relative w-full lg:ml-auto">
+          <p className="text-base md:text-lg leading-relaxed mb-6 font-medium">
+            Un día entero dedicado a Bitcoin, en Montevideo. Charlas, stands, entrevistas, música y networking, con gente de Uruguay, Argentina y la región.
           </p>
-          <p className="text-xl md:text-2xl leading-relaxed font-medium text-[#f4ebd8]/80">
-            BE ORANGE cierra la Bitcoin Week Uruguay, una semana de actividades en todo el país del 10 al 24 de mayo.
+          <p className="text-base md:text-lg leading-relaxed font-medium text-brand-cream/80">
+            <span className="font-bold text-brand-cream">BE ORANGE cierra la Bitcoin Week Uruguay</span>, una semana de actividades en todo el país del 18 al 24 de mayo.
           </p>
         </div>
       </div>
