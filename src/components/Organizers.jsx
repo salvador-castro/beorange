@@ -2,7 +2,7 @@ import { ORGANIZERS } from "../data/organizers";
 
 export default function Organizers() {
   return (
-    <section className="bg-[#140a08] text-white py-24 px-6 border-t-4 border-[#241310] w-full">
+    <section className="bg-brand-dark text-white py-24 px-6 border-t-4 border-brand-brown w-full">
       <div className="max-w-4xl mx-auto">
         <p className="text-center font-lexend text-sm tracking-[0.4em] uppercase text-gray-500 mb-16">
           Organizado por
