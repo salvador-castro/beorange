@@ -111,8 +111,20 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="bg-gradient-to-r from-[#E75515] to-[#812F0C] py-3 px-6 text-center text-white text-sm font-medium w-full shadow-inner">
-          BE ORANGE — The Bitcoiners Meeting 24 de mayo de 2026 · Montevideo, Uruguay
+        <div className="bg-gradient-to-r from-[#E75515] to-[#812F0C] py-3 px-6 flex flex-col md:flex-row items-center justify-center gap-1 md:gap-2 text-white text-sm font-medium w-full shadow-inner">
+          <span>BE ORANGE — The Bitcoiners Meeting 24 de mayo de 2026 · Montevideo, Uruguay</span>
+          <span className="hidden md:inline">|</span>
+          <span>
+            desarrollado por{" "}
+            <a
+              href="https://salvadorcastro.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-gray-200 transition-colors"
+            >
+              salvaCastro
+            </a>
+          </span>
         </div>
       </footer>
     </>
