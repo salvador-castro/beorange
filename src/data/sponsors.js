@@ -16,9 +16,12 @@ export const SPONSOR_TIERS = [
   {
     title: "Ecosystem Partners",
     items: [
-      { src: "/patrocinadores/ecosystemPartners/blockchainRIO.png", alt: "Blockchain RIO", heightClass: "h-16", maxWidth: "max-w-[150px]" },
-      { src: "/patrocinadores/ecosystemPartners/bitcoinAR.png", alt: "Bitcoin AR", heightClass: "h-16", maxWidth: "max-w-[80px]" },
-      { src: "/patrocinadores/ecosystemPartners/vendimiaTech.png", alt: "Vendimia Tech", heightClass: "h-20", maxWidth: "max-w-[150px]" },
+      { src: "/patrocinadores/ecosystemPartners/blockchainRIO.png", alt: "Blockchain RIO", heightClass: "h-16", maxWidth: "max-w-[180px]" },
+      { src: "/patrocinadores/ecosystemPartners/bitcoinAR.png", alt: "Bitcoin AR", heightClass: "h-16", maxWidth: "max-w-[120px]" },
+      { src: "/patrocinadores/ecosystemPartners/vendimiaTech.png", alt: "Vendimia Tech", heightClass: "h-16", maxWidth: "max-w-[180px]" },
+      { src: "/patrocinadores/ecosystemPartners/criptoGuardian.png", alt: "Cripto Guardian", heightClass: "h-28", maxWidth: "max-w-[250px]" },
+      { src: "/patrocinadores/ecosystemPartners/criptoSpace.png", alt: "Cripto Space", heightClass: "h-28", maxWidth: "max-w-[250px]" },
+      { src: "/patrocinadores/ecosystemPartners/escuelitaBitcoin.png", alt: "Escuelita Bitcoin", heightClass: "h-28", maxWidth: "max-w-[250px]" },
     ],
   },
   {
