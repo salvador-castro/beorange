@@ -13,7 +13,7 @@ export default function Footer() {
                 <a
                   key={email}
                   href={`mailto:${email}`}
-                  className="text-[#1f110c] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium hover:underline tracking-tight break-all"
+                  className="text-[#1f110c] text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-medium hover:underline tracking-tight break-all md:break-normal md:whitespace-nowrap"
                 >
                   {email}
                 </a>
