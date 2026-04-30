@@ -13,15 +13,15 @@ export default function Footer() {
                 <a
                   key={email}
                   href={`mailto:${email}`}
-                  className="text-[#1f110c] text-3xl md:text-4xl lg:text-5xl font-medium hover:underline tracking-tight"
+                  className="text-[#1f110c] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium hover:underline tracking-tight break-all"
                 >
                   {email}
                 </a>
               ))}
             </div>
           </div>
-          <div className="w-full md:w-1/2 flex justify-end">
-            <div className="relative">
+          <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+            <div className="relative md:mr-8">
               <img
                 src="/recursos/monedaConAnteojos.png"
                 alt="Bitcoin Contacto"
