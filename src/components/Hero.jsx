@@ -12,8 +12,6 @@ export default function Hero() {
       >
         <source src="/videos/hero.mp4" type="video/mp4" />
       </video>
-      <div className="absolute inset-0 bg-[#d85114]/40 mix-blend-multiply z-10"></div>
-      <div className="absolute inset-0 bg-[#0a0504]/30 z-10"></div>
 
       <div className="relative z-20 flex flex-col items-center max-w-4xl mx-auto px-6 py-24 pt-32">
         <div className="flex items-center gap-4 mb-2 mt-12 md:mt-16">
