@@ -20,7 +20,7 @@ export default function EventCards() {
           </p>
         </div>
 
-        <div className="bg-brand-brown rounded-xl overflow-hidden relative flex items-center justify-center md:h-80 shadow-xl hover:-translate-y-2 transition-transform duration-300 group">
+        <div className="bg-brand-brown rounded-xl overflow-hidden relative flex items-center justify-center h-64 md:h-80 shadow-xl hover:-translate-y-2 transition-transform duration-300 group">
           <img 
             src="/lugares/sinergia.png" 
             alt="Sinergia background" 
