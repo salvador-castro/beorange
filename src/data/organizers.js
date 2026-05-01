@@ -4,7 +4,7 @@ export const ORGANIZERS = [
     alt: "Roderich",
     url: "https://roderichs.com/",
     description:
-      "Espacio cripto uruguayo con trabajo en operaciones, educación y comunidad. Presencia sostenida en el ecosistema local y regional.",
+      "Empresa uruguaya especializada en intercambio entre dinero fiat y activos virtuales, con servicio OTC, atención personalizada y foco en operaciones seguras. Impulsa educación y comunidad para hacer el ecosistema más accesible, claro y confiable.",
   },
   {
     logo: "/logos/plugin/logoPlugin.png",
