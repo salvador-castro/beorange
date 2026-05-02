@@ -16,7 +16,7 @@ export default function Sponsors() {
           Marcas que mueven
           <br className="hidden md:block" /> la innovación
         </h2>
-        <p className="text-gray-500 font-medium text-lg mb-20 max-w-2xl mx-auto">
+        <p className="text-gray-500 font-medium text-lg max-w-2xl mx-auto">
           Trabajamos junto a aliados que invierten en ideas, transformación y lo
           que viene.
         </p>

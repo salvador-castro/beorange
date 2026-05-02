@@ -23,7 +23,7 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/ecosystemPartners/vendimiaTech.png", alt: "Vendimia Tech", heightClass: "h-16", maxWidth: "max-w-[180px]", url: "https://vendimiatech.com/" },
       { src: "/patrocinadores/ecosystemPartners/criptoGuardian.png", alt: "Cripto Guardian", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://criptoguardian.com/" },
       { src: "/patrocinadores/ecosystemPartners/criptoSpace.png", alt: "Cripto Space", heightClass: "h-28", maxWidth: "max-w-[250px]", url: null },
-      { src: "/patrocinadores/ecosystemPartners/fundacionBlockchainArgentina.png", alt: "FBA", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://fundacionblockchain.com/" },
+      { src: "/patrocinadores/ecosystemPartners/fundacionBlockchainArgentina.png", alt: "FBA", heightClass: "h-16", maxWidth: "max-w-[160px]", url: "https://fundacionblockchain.com/" },
     ],
   },
   {
