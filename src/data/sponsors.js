@@ -5,6 +5,8 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/earlyAdopter/hashrate.png", alt: "Hashrate", heightClass: "h-16", maxWidth: "max-w-[200px]", url: "https://hashrate.space/es/" },
       { src: "/patrocinadores/earlyAdopter/fbi.png", alt: "FBI", heightClass: "h-24", maxWidth: "max-w-[200px]", url: "https://www.instagram.com/bitcoiniberoamerica/" },
       { src: "/logos/spacedev/spacedev.png", alt: "SpaceDev", heightClass: "h-20", maxWidth: "max-w-[200px]", url: "https://spacedev.io/" },
+      { src: "/patrocinadores/ecosystemPartners/escuelitaBitcoin.png", alt: "Escuelita Bitcoin", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://escuelitabitcoin.com/" },
+
     ],
   },
   {
@@ -21,7 +23,7 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/ecosystemPartners/vendimiaTech.png", alt: "Vendimia Tech", heightClass: "h-16", maxWidth: "max-w-[180px]", url: "https://vendimiatech.com/" },
       { src: "/patrocinadores/ecosystemPartners/criptoGuardian.png", alt: "Cripto Guardian", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://criptoguardian.com/" },
       { src: "/patrocinadores/ecosystemPartners/criptoSpace.png", alt: "Cripto Space", heightClass: "h-28", maxWidth: "max-w-[250px]", url: null },
-      { src: "/patrocinadores/ecosystemPartners/escuelitaBitcoin.png", alt: "Escuelita Bitcoin", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://escuelitabitcoin.com/" },
+      { src: "/patrocinadores/ecosystemPartners/fundacionBlockchainArgentina.png", alt: "FBA", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://fundacionblockchain.com/" },
     ],
   },
   {

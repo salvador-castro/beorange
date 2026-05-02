@@ -21,6 +21,8 @@ export default function Sponsors() {
           que viene.
         </p>
 
+        <h3 className="font-black text-center text-2xl tracking-widest uppercase mb-8">SPONSORS</h3>
+
         <div className="flex flex-col gap-24 items-center">
           {SPONSOR_TIERS.map((tier) => (
             <SponsorTier key={tier.title} title={tier.title} items={tier.items} />
