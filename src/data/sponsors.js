@@ -30,7 +30,7 @@ export const SPONSOR_TIERS = [
     title: "Media Partners",
     items: [
       { src: "/patrocinadores/mediaPartners/bitcoinArgentina.PNG", alt: "Bitcoin Argentina", heightClass: "h-20", maxWidth: "max-w-[220px]", url: "https://www.bitcoinarg.news/" },
-      { src: "/patrocinadores/mediaPartners/canalMutuo.png", alt: "Canal Mutuo", heightClass: "h-14", maxWidth: "max-w-[180px]", url: "https://mutuo.uy" },
+      { src: "/patrocinadores/mediaPartners/canalMutuo.png", alt: "Canal Mutuo", heightClass: "h-14", maxWidth: "max-w-[180px]", url: "http://canalmutuo.com/" },
     ],
   },
   {
