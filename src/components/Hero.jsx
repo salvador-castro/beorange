@@ -49,7 +49,7 @@ export default function Hero() {
           El primer encuentro bitcoiner de escala en Uruguay
         </p>
         <p className="text-white text-xl md:text-2xl font-bold mb-12 drop-shadow-sm">
-          Domingo 24 de mayo · 14:30 a 20:30 · Montevideo
+          Domingo 24 de mayo · 15:00 a 21:00 · Montevideo
         </p>
 
         <a
