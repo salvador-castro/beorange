@@ -4,14 +4,21 @@ export const ORGANIZERS = [
     alt: "Roderich",
     url: "https://roderichs.com/",
     description:
-      "Empresa uruguaya especializada en intercambio entre dinero fiat y activos virtuales, con servicio OTC, atención personalizada y foco en operaciones seguras. Impulsa educación y comunidad para hacer el ecosistema más accesible, claro y confiable.",
+      "Ofrece un servicio seguro y personalizado de compra-venta de criptomonedas en Uruguay, acompañado de educación gratuita y comunidad, para que cualquier persona pueda acceder al mundo cripto con confianza, transparencia y cercanía.",
   },
   {
     logo: "/logos/plugin/logoPlugin.png",
     alt: "Plugin",
     url: "https://plugin.uy/",
     description:
-      "Comunidad y plataforma de conexión con experiencia en crear encuentros con identidad propia, networking real y capacidad de convocatoria.",
+      "Productora y agencia uruguaya enfocada en tecnología, cultura y ecosistema. Produce eventos, activa comunidades y conecta proyectos con las personas que les dan sentido.",
+  },
+  {
+    logo: "/logos/tangram/tangramLogo.png",
+    alt: "Tangram",
+    url: "https://tangram.space/",
+    description:
+      "Estudio creativo a cargo de la dirección ejecutiva del evento, el desarrollo de la experiencia y la articulación de partners.",
   },
 ];
 
