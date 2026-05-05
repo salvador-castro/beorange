@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import EventCards from "./components/EventCards";
+import SinergiaVideo from "./components/SinergiaVideo";
 import Agenda from "./components/Agenda";
 import Sponsors from "./components/Sponsors";
 import Organizers from "./components/Organizers";
@@ -15,6 +16,7 @@ export default function App() {
       <Hero />
       <About />
       <EventCards />
+      <SinergiaVideo />
       <Agenda />
       <Sponsors />
       <Organizers />
