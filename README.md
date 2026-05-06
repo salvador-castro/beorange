@@ -139,7 +139,7 @@ beorange/
 
 ```bash
 # 1. Clonar el repositorio
-git clone <repo-url>
+git clone https://github.com/salvador-castro/beorange.git
 cd beorange
 
 # 2. Instalar dependencias
