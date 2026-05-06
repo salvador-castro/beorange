@@ -25,10 +25,8 @@
   --color-brand-brown: #241310;
   --color-brand-dark: #190808;
   --color-brand-orange: #f28b18;
-  --color-brand-lightorange: #f4a23b;
   --color-brand-cream: #f4ebd8;
-  --color-brand-lightcream: #f9f5ec;
-  
+
   --font-lexend: 'Lexend', sans-serif;
   --font-inter: 'Inter', sans-serif;
 }
@@ -51,49 +49,4 @@ body {
   background-color: var(--color-brand-cream);
   color: var(--color-brand-dark);
   overflow-x: hidden;
-}
-
-/* Custom backgrounds */
-.bg-hero-texture {
-  background: 
-    linear-gradient(135deg, rgba(230, 95, 20, 0.85) 0%, rgba(180, 50, 10, 0.95) 100%),
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.25'/%3E%3C/svg%3E");
-  background-color: #d85114;
-}
-
-.bg-dark-texture {
-  background: 
-    linear-gradient(135deg, rgba(36, 19, 16, 0.95) 0%, rgba(20, 10, 5, 0.98) 100%),
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.1'/%3E%3C/svg%3E");
-  background-color: #190808;
-}
-
-.text-outline {
-  text-shadow: 
-    -1px -1px 0 #190808,  
-     1px -1px 0 #190808,
-    -1px  1px 0 #190808,
-     1px  1px 0 #190808;
-}
-
-/* Base button */
-.btn-primary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  color: var(--color-brand-dark);
-  font-family: 'Lexend', sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding: 0.8rem 2.5rem;
-  border-radius: 9999px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  transition: all 0.2s;
-  text-decoration: none;
-}
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
