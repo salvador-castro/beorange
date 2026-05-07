@@ -22,7 +22,6 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/ecosystemPartners/blockchainRIO.png", alt: "Blockchain RIO", heightClass: "h-16", maxWidth: "max-w-[180px]", url: "https://blockchainrio.com.br" },
       { src: "/patrocinadores/ecosystemPartners/bitcoinAR.png", alt: "Bitcoin AR", heightClass: "h-16", maxWidth: "max-w-[120px]", url: "https://bitcoin.ar" },
       { src: "/patrocinadores/ecosystemPartners/vendimiaTech.png", alt: "Vendimia Tech", heightClass: "h-16", maxWidth: "max-w-[180px]", url: "https://vendimiatech.com/" },
-      { src: "/patrocinadores/ecosystemPartners/criptoSpace.png", alt: "Cripto Space", heightClass: "h-28", maxWidth: "max-w-[250px]", url: null },
       { src: "/patrocinadores/ecosystemPartners/fundacionBlockchainArgentina.png", alt: "FBA", heightClass: "h-16", maxWidth: "max-w-[160px]", url: "https://fundacionblockchain.com/" },
       { src: "/patrocinadores/ecosystemPartners/camaraBlockchainUruguayLogo.svg", alt: "Cámara Blockchain UY", heightClass: "h-16", maxWidth: "max-w-[200px]", url: "https://www.cbu.org.uy/" },
     ],
@@ -49,6 +48,7 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/supporters/moneyOnChain.png", alt: "Money On Chain", heightClass: "h-14", maxWidth: "max-w-[550px]", url: "https://moneyonchain.com/es/" },
       { src: "/patrocinadores/supporters/latamCriptoMom.png", alt: "Latam Cripto Mom", heightClass: "h-24", maxWidth: "max-w-[350px]", url: "https://www.youtube.com/@latamcriptomom" },
       { src: "/patrocinadores/supporters/humanity.png", alt: "Humanity", heightClass: "h-16", maxWidth: "max-w-[350px]", url: "https://www.bitcoin4humanity.org/" },
+      { src: "/patrocinadores/supporters/criptoSpace.png", alt: "Cripto Space", heightClass: "h-28", maxWidth: "max-w-[250px]", url: null },
     ],
   },
 ];
