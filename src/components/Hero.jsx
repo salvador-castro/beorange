@@ -26,6 +26,12 @@ export default function Hero() {
             alt="Plugin"
             className="h-7 md:h-9 brightness-0 invert"
           />
+          <span className="text-white font-inter text-xs font-light self-end mb-1">&</span>
+          <img
+            src="/logos/tangram/tangramLogo.png"
+            alt="Tangram"
+            className="h-7 md:h-9 brightness-0 invert"
+          />
         </div>
         <p className="text-white font-inter text-xl md:text-2xl mb-8">
           Presentan:
