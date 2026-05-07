@@ -13,6 +13,7 @@ export const SPONSOR_TIERS = [
     title: "Friendly",
     items: [
       { src: "/patrocinadores/friendly/fakinBomb.png", alt: "Fakin Bomb", heightClass: "h-16", maxWidth: "max-w-[150px]", url: "https://www.fakinbomb.com/" },
+      { src: "/patrocinadores/friendly/baltLogo.png", alt: "Balt", heightClass: "h-16", maxWidth: "max-w-[150px]", url: "https://jxlabs.xyz/balt" },
     ],
   },
   {
