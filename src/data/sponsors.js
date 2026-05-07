@@ -11,6 +11,7 @@ export const SPONSOR_TIERS = [
   },
   {
     title: "Friendly",
+    rowGapClass: "gap-20 md:gap-32",
     items: [
       { src: "/patrocinadores/friendly/fakinBomb.png", alt: "Fakin Bomb", heightClass: "h-16", maxWidth: "max-w-[150px]", url: "https://www.fakinbomb.com/" },
       { src: "/patrocinadores/friendly/baltLogo.png", alt: "Balt", heightClass: "h-16", maxWidth: "max-w-[150px]", url: "https://jxlabs.xyz/balt" },
@@ -45,10 +46,10 @@ export const SPONSOR_TIERS = [
   {
     title: "Supporters",
     items: [
-      { src: "/patrocinadores/supporters/moneyOnChain.png", alt: "Money On Chain", heightClass: "h-14", maxWidth: "max-w-[550px]", url: "https://moneyonchain.com/es/" },
+      { src: "/patrocinadores/supporters/moneyOnChain.png", alt: "Money On Chain", heightClass: "h-16", maxWidth: "max-w-[550px]", url: "https://moneyonchain.com/es/" },
       { src: "/patrocinadores/supporters/latamCriptoMom.png", alt: "Latam Cripto Mom", heightClass: "h-24", maxWidth: "max-w-[350px]", url: "https://www.youtube.com/@latamcriptomom" },
       { src: "/patrocinadores/supporters/humanity.png", alt: "Humanity", heightClass: "h-16", maxWidth: "max-w-[350px]", url: "https://www.bitcoin4humanity.org/" },
-      { src: "/patrocinadores/supporters/criptoSpace.png", alt: "Cripto Space", heightClass: "h-28", maxWidth: "max-w-[250px]", url: null },
+      { src: "/patrocinadores/supporters/criptoSpace.png", alt: "Cripto Space", heightClass: "h-32", maxWidth: "max-w-[280px]", url: null },
     ],
   },
 ];
