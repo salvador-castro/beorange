@@ -26,6 +26,12 @@ export default function Hero() {
             alt="Plugin"
             className="h-7 md:h-9 brightness-0 invert"
           />
+          <span className="text-white font-inter text-xs font-light self-end mb-1">&</span>
+          <img
+            src="/logos/tangram/tangramLogo.png"
+            alt="Tangram"
+            className="h-9 md:h-11 brightness-0 invert"
+          />
         </div>
         <p className="text-white font-inter text-xl md:text-2xl mb-8">
           Presentan:
@@ -38,7 +44,7 @@ export default function Hero() {
         />
 
         <p className="text-white font-inter uppercase tracking-[0.2em] md:tracking-[0.3em] text-xl md:text-2xl mb-6 font-medium">
-          The Bitcoiners Meeting
+          The Bitcoiner Meeting
         </p>
 
         <p className="text-white font-inter font-light text-5xl md:text-6xl tracking-[0.4em] md:tracking-[0.6em] leading-none mb-12 drop-shadow-md">
