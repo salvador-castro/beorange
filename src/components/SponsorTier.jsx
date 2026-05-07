@@ -1,4 +1,4 @@
-export default function SponsorTier({ title, items }) {
+export default function SponsorTier({ title, items, rowGapClass = "gap-12 md:gap-20" }) {
   const rows = [];
   for (let i = 0; i < items.length; i += 3) {
     rows.push(items.slice(i, i + 3));
@@ -15,7 +15,7 @@ export default function SponsorTier({ title, items }) {
       </div>
       <div className="flex flex-col items-center gap-12 md:gap-16">
         {rows.map((row, rowIndex) => (
-          <div key={rowIndex} className="flex flex-wrap justify-center items-center gap-12 md:gap-20">
+          <div key={rowIndex} className={`flex flex-wrap justify-center items-center ${rowGapClass}`}>
             {row.map((item) => {
               const img = (
                 <img
