@@ -31,6 +31,8 @@ export const SPONSOR_TIERS = [
     items: [
       { src: "/patrocinadores/mediaPartners/bitcoinArgentina.PNG", alt: "Bitcoin Argentina", heightClass: "h-20", maxWidth: "max-w-[220px]", url: "https://www.bitcoinarg.news/" },
       { src: "/patrocinadores/mediaPartners/canalMutuo.png", alt: "Canal Mutuo", heightClass: "h-14", maxWidth: "max-w-[180px]", url: "http://canalmutuo.com/" },
+      { src: "/patrocinadores/mediaPartners/archivoCripto.png", alt: "Archivo Cripto", heightClass: "h-20", maxWidth: "max-w-[220px]", url: "https://www.archivocripto.com/" },
+      { src: "/patrocinadores/mediaPartners/criptoNoticias.png", alt: "Criptonoticias", heightClass: "h-20", maxWidth: "max-w-[220px]", url: "https://www.criptonoticias.com/" },
     ],
   },
   {
