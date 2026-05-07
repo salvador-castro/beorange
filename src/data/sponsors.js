@@ -22,7 +22,6 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/ecosystemPartners/blockchainRIO.png", alt: "Blockchain RIO", heightClass: "h-16", maxWidth: "max-w-[180px]", url: "https://blockchainrio.com.br" },
       { src: "/patrocinadores/ecosystemPartners/bitcoinAR.png", alt: "Bitcoin AR", heightClass: "h-16", maxWidth: "max-w-[120px]", url: "https://bitcoin.ar" },
       { src: "/patrocinadores/ecosystemPartners/vendimiaTech.png", alt: "Vendimia Tech", heightClass: "h-16", maxWidth: "max-w-[180px]", url: "https://vendimiatech.com/" },
-      { src: "/patrocinadores/ecosystemPartners/criptoGuardian.png", alt: "Cripto Guardian", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://criptoguardian.com/" },
       { src: "/patrocinadores/ecosystemPartners/criptoSpace.png", alt: "Cripto Space", heightClass: "h-28", maxWidth: "max-w-[250px]", url: null },
       { src: "/patrocinadores/ecosystemPartners/fundacionBlockchainArgentina.png", alt: "FBA", heightClass: "h-16", maxWidth: "max-w-[160px]", url: "https://fundacionblockchain.com/" },
     ],
@@ -32,6 +31,13 @@ export const SPONSOR_TIERS = [
     items: [
       { src: "/patrocinadores/mediaPartners/bitcoinArgentina.PNG", alt: "Bitcoin Argentina", heightClass: "h-20", maxWidth: "max-w-[220px]", url: "https://www.bitcoinarg.news/" },
       { src: "/patrocinadores/mediaPartners/canalMutuo.png", alt: "Canal Mutuo", heightClass: "h-14", maxWidth: "max-w-[180px]", url: "http://canalmutuo.com/" },
+    ],
+  },
+  {
+    title: "Partners",
+    items: [
+      { src: "/patrocinadores/partners/criptoGuardian.png", alt: "Cripto Guardian", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://criptoguardian.com/" },
+      { src: "/patrocinadores/partners/puntabitcoinLogo.png", alt: "Punta Bitcoin", heightClass: "h-28", maxWidth: "max-w-[250px]", url: "https://www.puntabitcoin.uy/" },
     ],
   },
   {
