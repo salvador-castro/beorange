@@ -30,7 +30,7 @@ export default function Hero() {
           <img
             src="/logos/tangram/tangramLogo.png"
             alt="Tangram"
-            className="h-7 md:h-9 brightness-0 invert"
+            className="h-9 md:h-11 brightness-0 invert"
           />
         </div>
         <p className="text-white font-inter text-xl md:text-2xl mb-8">
