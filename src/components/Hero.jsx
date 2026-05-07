@@ -44,7 +44,7 @@ export default function Hero() {
         />
 
         <p className="text-white font-inter uppercase tracking-[0.2em] md:tracking-[0.3em] text-xl md:text-2xl mb-6 font-medium">
-          The Bitcoiners Meeting
+          The Bitcoiner Meeting
         </p>
 
         <p className="text-white font-inter font-light text-5xl md:text-6xl tracking-[0.4em] md:tracking-[0.6em] leading-none mb-12 drop-shadow-md">
