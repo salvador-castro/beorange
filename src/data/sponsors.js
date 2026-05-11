@@ -102,7 +102,7 @@ export const SPONSOR_TIERS = [
         alt: 'Bitcoin NEA',
         heightClass: 'h-16',
         maxWidth: 'max-w-[200px]',
-        url: null
+        url: 'https://www.instagram.com/bitcoin.nea/'
       }
     ]
   },
