@@ -25,6 +25,8 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/ecosystemPartners/vendimiaTech.png", alt: "Vendimia Tech", heightClass: "h-16", maxWidth: "max-w-[180px]", url: "https://vendimiatech.com/" },
       { src: "/patrocinadores/ecosystemPartners/fundacionBlockchainArgentina.png", alt: "FBA", heightClass: "h-16", maxWidth: "max-w-[160px]", url: "https://fundacionblockchain.com/" },
       { src: "/patrocinadores/ecosystemPartners/camaraBlockchainUruguayLogo.svg", alt: "Cámara Blockchain UY", heightClass: "h-16", maxWidth: "max-w-[200px]", url: "https://www.cbu.org.uy/" },
+      { src: "/patrocinadores/ecosystemPartners/acelerandoBitcoin.png", alt: "Acelerando Bitcoin", heightClass: "h-16", maxWidth: "max-w-[200px]", url: "https://www.acelerandobitcoin" },
+      { src: "/patrocinadores/ecosystemPartners/bitcoinNea.png", alt: "Bitcoin NEA", heightClass: "h-16", maxWidth: "max-w-[200px]", url: null },
     ],
   },
   {
@@ -34,6 +36,7 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/mediaPartners/canalMutuo.png", alt: "Canal Mutuo", heightClass: "h-14", maxWidth: "max-w-[180px]", url: "http://canalmutuo.com/" },
       { src: "/patrocinadores/mediaPartners/archivoCripto.png", alt: "Archivo Cripto", heightClass: "h-20", maxWidth: "max-w-[220px]", url: "https://www.archivocripto.com/" },
       { src: "/patrocinadores/mediaPartners/criptoNoticias.png", alt: "Criptonoticias", heightClass: "h-20", maxWidth: "max-w-[220px]", url: "https://www.criptonoticias.com/" },
+      { src: "/patrocinadores/mediaPartners/voltajeLogo.png", alt: "Voltaje", heightClass: "h-20", maxWidth: "max-w-[220px]", url: "https://www.voltaje.online" },
     ],
   },
   {
