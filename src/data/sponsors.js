@@ -170,7 +170,7 @@ export const SPONSOR_TIERS = [
         alt: 'Voltaje',
         heightClass: 'h-20',
         maxWidth: 'max-w-[220px]',
-        url: 'https://www.voltaje.online'
+        url: 'https://voltaje.online'
       }
     ]
   },
