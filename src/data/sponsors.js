@@ -49,6 +49,13 @@ export const SPONSOR_TIERS = [
         heightClass: 'h-16',
         maxWidth: 'max-w-[150px]',
         url: 'https://jxlabs.xyz/balt'
+      },
+      {
+        src: '/patrocinadores/friendly/birnariaLogo.png',
+        alt: 'Bitnaria',
+        heightClass: 'h-16',
+        maxWidth: 'max-w-[150px]',
+        url: 'https://bitnaria.com'
       }
     ]
   },
@@ -103,6 +110,27 @@ export const SPONSOR_TIERS = [
         heightClass: 'h-16',
         maxWidth: 'max-w-[200px]',
         url: 'https://www.instagram.com/bitcoin.nea/'
+      },
+      {
+        src: '/patrocinadores/ecosystemPartners/saltaDevLogo.png',
+        alt: 'Salta Dev',
+        heightClass: 'h-16',
+        maxWidth: 'max-w-[180px]',
+        url: 'https://salta.dev/'
+      },
+      {
+        src: '/patrocinadores/ecosystemPartners/cryptoLaPlata.png',
+        alt: 'Crypto La Plata',
+        heightClass: 'h-16',
+        maxWidth: 'max-w-[180px]',
+        url: null
+      },
+      {
+        src: '/patrocinadores/ecosystemPartners/laBitcoinetaLogo.png',
+        alt: 'La Bitcoineta',
+        heightClass: 'h-16',
+        maxWidth: 'max-w-[180px]',
+        url: 'https://www.bitcoin4humanity.org/bitcoineta'
       }
     ]
   },
