@@ -195,6 +195,34 @@ export const SPONSOR_TIERS = [
         heightClass: 'h-32',
         maxWidth: 'max-w-[280px]',
         url: null
+      },
+      {
+        src: '/patrocinadores/supporters/herChain.png',
+        alt: 'Her Chain',
+        heightClass: 'h-32',
+        maxWidth: 'max-w-[280px]',
+        url: 'https://www.instagram.com/herchain.uy/'
+      },
+      {
+        src: '/patrocinadores/supporters/mintelar.png',
+        alt: 'Mintelar',
+        heightClass: 'h-32',
+        maxWidth: 'max-w-[280px]',
+        url: 'https://www.instagram.com/mintelarapp/'
+      },
+      {
+        src: '/patrocinadores/supporters/mec.png',
+        alt: 'MEC',
+        heightClass: 'h-32',
+        maxWidth: 'max-w-[280px]',
+        url: 'https://www.linkedin.com/company/mujeres-en-crypto/posts/?feedView=all'
+      },
+      {
+        src: '/patrocinadores/supporters/PAM.png',
+        alt: 'Pamela Gonzalez',
+        heightClass: 'h-32',
+        maxWidth: 'max-w-[280px]',
+        url: 'https://gonzalezperilli.com/'
       }
     ]
   }
