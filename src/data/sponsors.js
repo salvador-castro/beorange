@@ -1,257 +1,257 @@
 export const SPONSOR_TIERS = [
   {
-    title: 'Early adopter',
+    title: "Early adopter",
     items: [
       {
-        src: '/patrocinadores/earlyAdopter/hashrate.png',
-        alt: 'Hashrate',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[200px]',
-        url: 'https://hashrate.space/es/'
+        src: "/patrocinadores/earlyAdopter/hashrate.png",
+        alt: "Hashrate",
+        heightClass: "h-16",
+        maxWidth: "max-w-[200px]",
+        url: "https://hashrate.space/es/",
       },
       {
-        src: '/patrocinadores/earlyAdopter/fbi.png',
-        alt: 'FBI',
-        heightClass: 'h-24',
-        maxWidth: 'max-w-[200px]',
-        url: 'https://www.instagram.com/bitcoiniberoamerica/'
+        src: "/patrocinadores/earlyAdopter/fbi.png",
+        alt: "FBI",
+        heightClass: "h-24",
+        maxWidth: "max-w-[200px]",
+        url: "https://www.instagram.com/bitcoiniberoamerica/",
       },
       {
-        src: '/logos/spacedev/spacedev.png',
-        alt: 'SpaceDev',
-        heightClass: 'h-20',
-        maxWidth: 'max-w-[200px]',
-        url: 'https://spacedev.io/'
+        src: "/logos/spacedev/spacedev.png",
+        alt: "SpaceDev",
+        heightClass: "h-20",
+        maxWidth: "max-w-[200px]",
+        url: "https://spacedev.io/",
       },
       {
-        src: '/patrocinadores/ecosystemPartners/escuelitaBitcoin.png',
-        alt: 'Escuelita Bitcoin',
-        heightClass: 'h-28',
-        maxWidth: 'max-w-[250px]',
-        url: 'https://escuelitabitcoin.com/'
-      }
-    ]
+        src: "/patrocinadores/ecosystemPartners/escuelitaBitcoin.png",
+        alt: "Escuelita Bitcoin",
+        heightClass: "h-28",
+        maxWidth: "max-w-[250px]",
+        url: "https://escuelitabitcoin.com/",
+      },
+    ],
   },
   {
-    title: 'Friendly',
-    rowGapClass: 'gap-20 md:gap-32',
+    title: "Friendly",
+    rowGapClass: "gap-20 md:gap-32",
     items: [
       {
-        src: '/patrocinadores/friendly/fakinBomb.png',
-        alt: 'Fakin Bomb',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[150px]',
-        url: 'https://www.fakinbomb.com/'
+        src: "/patrocinadores/friendly/fakinBomb.png",
+        alt: "Fakin Bomb",
+        heightClass: "h-16",
+        maxWidth: "max-w-[150px]",
+        url: "https://www.fakinbomb.com/",
       },
       {
-        src: '/patrocinadores/friendly/baltLogo.png',
-        alt: 'Balt',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[150px]',
-        url: 'https://jxlabs.xyz/balt'
+        src: "/patrocinadores/friendly/baltLogo.png",
+        alt: "Balt",
+        heightClass: "h-16",
+        maxWidth: "max-w-[150px]",
+        url: "https://jxlabs.xyz/balt",
       },
       {
-        src: '/patrocinadores/friendly/birnariaLogo.png',
-        alt: 'Bitnaria',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[150px]',
-        url: 'https://bitnaria.com'
-      }
-    ]
+        src: "/patrocinadores/friendly/birnariaLogo.png",
+        alt: "Bitnaria",
+        heightClass: "h-16",
+        maxWidth: "max-w-[150px]",
+        url: "https://bitnaria.com",
+      },
+    ],
   },
   {
-    title: 'Ecosystem Partners',
+    title: "Ecosystem Partners",
     items: [
       {
-        src: '/patrocinadores/ecosystemPartners/blockchainRIO.png',
-        alt: 'Blockchain RIO',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[180px]',
-        url: 'https://blockchainrio.com.br'
+        src: "/patrocinadores/ecosystemPartners/blockchainRIO.png",
+        alt: "Blockchain RIO",
+        heightClass: "h-16",
+        maxWidth: "max-w-[180px]",
+        url: "https://blockchainrio.com.br",
       },
       {
-        src: '/patrocinadores/ecosystemPartners/bitcoinAR.png',
-        alt: 'Bitcoin AR',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[120px]',
-        url: 'https://bitcoin.ar'
+        src: "/patrocinadores/ecosystemPartners/bitcoinAR.png",
+        alt: "Bitcoin AR",
+        heightClass: "h-16",
+        maxWidth: "max-w-[120px]",
+        url: "https://bitcoin.ar",
       },
       {
-        src: '/patrocinadores/ecosystemPartners/vendimiaTech.png',
-        alt: 'Vendimia Tech',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[180px]',
-        url: 'https://vendimiatech.com/'
+        src: "/patrocinadores/ecosystemPartners/vendimiaTech.png",
+        alt: "Vendimia Tech",
+        heightClass: "h-16",
+        maxWidth: "max-w-[180px]",
+        url: "https://vendimiatech.com/",
       },
       {
-        src: '/patrocinadores/ecosystemPartners/fundacionBlockchainArgentina.png',
-        alt: 'FBA',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[160px]',
-        url: 'https://fundacionblockchain.com/'
+        src: "/patrocinadores/ecosystemPartners/fundacionBlockchainArgentina.png",
+        alt: "FBA",
+        heightClass: "h-16",
+        maxWidth: "max-w-[160px]",
+        url: "https://fundacionblockchain.com/",
       },
       {
-        src: '/patrocinadores/ecosystemPartners/camaraBlockchainUruguayLogo.svg',
-        alt: 'Cámara Blockchain UY',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[200px]',
-        url: 'https://www.cbu.org.uy/'
+        src: "/patrocinadores/ecosystemPartners/camaraBlockchainUruguayLogo.svg",
+        alt: "Cámara Blockchain UY",
+        heightClass: "h-16",
+        maxWidth: "max-w-[200px]",
+        url: "https://www.cbu.org.uy/",
       },
       {
-        src: '/patrocinadores/ecosystemPartners/acelerandoBitcoin.png',
-        alt: 'Acelerando Bitcoin',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[200px]',
-        url: 'https://www.acelerandobitcoin'
+        src: "/patrocinadores/ecosystemPartners/acelerandoBitcoin.png",
+        alt: "Acelerando Bitcoin",
+        heightClass: "h-16",
+        maxWidth: "max-w-[200px]",
+        url: "https://www.acelerandobitcoin",
       },
       {
-        src: '/patrocinadores/ecosystemPartners/bitcoinNea.png',
-        alt: 'Bitcoin NEA',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[200px]',
-        url: 'https://www.instagram.com/bitcoin.nea/'
+        src: "/patrocinadores/ecosystemPartners/bitcoinNea.png",
+        alt: "Bitcoin NEA",
+        heightClass: "h-16",
+        maxWidth: "max-w-[200px]",
+        url: "https://www.instagram.com/bitcoin.nea/",
       },
       {
-        src: '/patrocinadores/ecosystemPartners/saltaDevLogo.png',
-        alt: 'Salta Dev',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[180px]',
-        url: 'https://salta.dev/'
+        src: "/patrocinadores/ecosystemPartners/saltaDevLogo.png",
+        alt: "Salta Dev",
+        heightClass: "h-16",
+        maxWidth: "max-w-[180px]",
+        url: "https://salta.dev/",
       },
       {
-        src: '/patrocinadores/ecosystemPartners/cryptoLaPlata.png',
-        alt: 'Crypto La Plata',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[180px]',
-        url: null
+        src: "/patrocinadores/ecosystemPartners/cryptoLaPlata.png",
+        alt: "Crypto La Plata",
+        heightClass: "h-16",
+        maxWidth: "max-w-[180px]",
+        url: null,
       },
       {
-        src: '/patrocinadores/ecosystemPartners/laBitcoinetaLogo.png',
-        alt: 'La Bitcoineta',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[180px]',
-        url: 'https://www.bitcoin4humanity.org/bitcoineta'
-      }
-    ]
+        src: "/patrocinadores/ecosystemPartners/laBitcoinetaLogo.png",
+        alt: "La Bitcoineta",
+        heightClass: "h-16",
+        maxWidth: "max-w-[180px]",
+        url: "https://www.bitcoin4humanity.org/bitcoineta",
+      },
+    ],
   },
   {
-    title: 'Media Partners',
+    title: "Media Partners",
     items: [
       {
-        src: '/patrocinadores/mediaPartners/bitcoinArgentina.PNG',
-        alt: 'Bitcoin Argentina',
-        heightClass: 'h-20',
-        maxWidth: 'max-w-[220px]',
-        url: 'https://www.bitcoinarg.news/'
+        src: "/patrocinadores/mediaPartners/bitcoinArgentina.PNG",
+        alt: "Bitcoin Argentina",
+        heightClass: "h-20",
+        maxWidth: "max-w-[220px]",
+        url: "https://www.bitcoinarg.news/",
       },
       {
-        src: '/patrocinadores/mediaPartners/canalMutuo.png',
-        alt: 'Canal Mutuo',
-        heightClass: 'h-14',
-        maxWidth: 'max-w-[180px]',
-        url: 'http://canalmutuo.com/'
+        src: "/patrocinadores/mediaPartners/canalMutuo.png",
+        alt: "Canal Mutuo",
+        heightClass: "h-14",
+        maxWidth: "max-w-[180px]",
+        url: "http://canalmutuo.com/",
       },
       {
-        src: '/patrocinadores/mediaPartners/archivoCripto.png',
-        alt: 'Archivo Cripto',
-        heightClass: 'h-20',
-        maxWidth: 'max-w-[220px]',
-        url: 'https://www.archivocripto.com/'
+        src: "/patrocinadores/mediaPartners/archivoCripto.png",
+        alt: "Archivo Cripto",
+        heightClass: "h-20",
+        maxWidth: "max-w-[220px]",
+        url: "https://www.archivocripto.com/",
       },
       {
-        src: '/patrocinadores/mediaPartners/criptoNoticias.png',
-        alt: 'Criptonoticias',
-        heightClass: 'h-20',
-        maxWidth: 'max-w-[220px]',
-        url: 'https://www.criptonoticias.com/'
+        src: "/patrocinadores/mediaPartners/criptoNoticias.png",
+        alt: "Criptonoticias",
+        heightClass: "h-20",
+        maxWidth: "max-w-[220px]",
+        url: "https://www.criptonoticias.com/",
       },
       {
-        src: '/patrocinadores/mediaPartners/voltajeLogo.png',
-        alt: 'Voltaje',
-        heightClass: 'h-20',
-        maxWidth: 'max-w-[220px]',
-        url: 'https://voltaje.online'
-      }
-    ]
+        src: "/patrocinadores/mediaPartners/voltajeLogo.png",
+        alt: "Voltaje",
+        heightClass: "h-20",
+        maxWidth: "max-w-[220px]",
+        url: "https://voltaje.online",
+      },
+    ],
   },
   {
-    title: 'Partners',
+    title: "Partners",
     items: [
       {
-        src: '/patrocinadores/partners/criptoGuardian.png',
-        alt: 'Cripto Guardian',
-        heightClass: 'h-28',
-        maxWidth: 'max-w-[250px]',
-        url: 'https://criptoguardian.com/'
+        src: "/patrocinadores/partners/criptoGuardian.png",
+        alt: "Cripto Guardian",
+        heightClass: "h-28",
+        maxWidth: "max-w-[250px]",
+        url: "https://criptoguardian.com/",
       },
       {
-        src: '/patrocinadores/partners/puntabitcoinLogo.png',
-        alt: 'Punta Bitcoin',
-        heightClass: 'h-28',
-        maxWidth: 'max-w-[250px]',
-        url: 'https://www.puntabitcoin.uy/'
-      }
-    ]
+        src: "/patrocinadores/partners/puntabitcoinLogo.png",
+        alt: "Punta Bitcoin",
+        heightClass: "h-28",
+        maxWidth: "max-w-[250px]",
+        url: "https://www.puntabitcoin.uy/",
+      },
+    ],
   },
   {
-    title: 'Supporters',
+    title: "Supporters",
     items: [
       {
-        src: '/patrocinadores/supporters/moneyOnChain.png',
-        alt: 'Money On Chain',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[550px]',
-        url: 'https://moneyonchain.com/es/'
+        src: "/patrocinadores/supporters/moneyOnChain.png",
+        alt: "Money On Chain",
+        heightClass: "h-16",
+        maxWidth: "max-w-[550px]",
+        url: "https://moneyonchain.com/es/",
       },
       {
-        src: '/patrocinadores/supporters/latamCriptoMom.png',
-        alt: 'Latam Cripto Mom',
-        heightClass: 'h-24',
-        maxWidth: 'max-w-[350px]',
-        url: 'https://www.youtube.com/@latamcriptomom'
+        src: "/patrocinadores/supporters/latamCriptoMom.png",
+        alt: "Latam Cripto Mom",
+        heightClass: "h-24",
+        maxWidth: "max-w-[350px]",
+        url: "https://www.youtube.com/@latamcriptomom",
       },
       {
-        src: '/patrocinadores/supporters/humanity.png',
-        alt: 'Humanity',
-        heightClass: 'h-16',
-        maxWidth: 'max-w-[350px]',
-        url: 'https://www.bitcoin4humanity.org/'
+        src: "/patrocinadores/supporters/humanity.png",
+        alt: "Humanity",
+        heightClass: "h-16",
+        maxWidth: "max-w-[350px]",
+        url: "https://www.bitcoin4humanity.org/",
       },
       {
-        src: '/patrocinadores/supporters/criptoSpace.png',
-        alt: 'Cripto Space',
-        heightClass: 'h-32',
-        maxWidth: 'max-w-[280px]',
-        url: null
+        src: "/patrocinadores/supporters/criptoSpace.png",
+        alt: "Cripto Space",
+        heightClass: "h-32",
+        maxWidth: "max-w-[280px]",
+        url: null,
       },
       {
-        src: '/patrocinadores/supporters/herChain.png',
-        alt: 'Her Chain',
-        heightClass: 'h-32',
-        maxWidth: 'max-w-[280px]',
-        url: 'https://www.instagram.com/herchain.uy/'
+        src: "/patrocinadores/supporters/herChain.png",
+        alt: "Her Chain",
+        heightClass: "h-32",
+        maxWidth: "max-w-[280px]",
+        url: "https://www.instagram.com/herchain.uy/",
       },
       {
-        src: '/patrocinadores/supporters/mintelar.png',
-        alt: 'Mintelar',
-        heightClass: 'h-32',
-        maxWidth: 'max-w-[280px]',
-        url: 'https://www.instagram.com/mintelarapp/'
+        src: "/patrocinadores/supporters/mintelar.png",
+        alt: "Mintelar",
+        heightClass: "h-32",
+        maxWidth: "max-w-[280px]",
+        url: "https://www.instagram.com/mintelarapp/",
       },
       {
-        src: '/patrocinadores/supporters/mec.png',
-        alt: 'MEC',
-        heightClass: 'h-32',
-        maxWidth: 'max-w-[280px]',
-        url: 'https://www.linkedin.com/company/mujeres-en-crypto/posts/?feedView=all'
+        src: "/patrocinadores/supporters/mec.png",
+        alt: "MEC",
+        heightClass: "h-32",
+        maxWidth: "max-w-[280px]",
+        url: "https://www.linkedin.com/company/mujeres-en-crypto/posts/?feedView=all",
       },
       {
-        src: '/patrocinadores/supporters/PAM.png',
-        alt: 'Pamela Gonzalez',
-        heightClass: 'h-32',
-        maxWidth: 'max-w-[280px]',
-        url: 'https://gonzalezperilli.com/'
-      }
-    ]
-  }
-]
+        src: "/patrocinadores/supporters/pam.png",
+        alt: "Pamela-Gonzalez",
+        heightClass: "h-32",
+        maxWidth: "max-w-[280px]",
+        url: "https://gonzalezperilli.com/",
+      },
+    ],
+  },
+];
