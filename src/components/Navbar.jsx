@@ -48,15 +48,21 @@ export default function Navbar() {
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
-          <span className={`block w-6 h-0.5 bg-brand-cream transition-transform duration-300 ${isOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-          <span className={`block w-6 h-0.5 bg-brand-cream transition-opacity duration-300 ${isOpen ? 'opacity-0' : ''}`}></span>
-          <span className={`block w-6 h-0.5 bg-brand-cream transition-transform duration-300 ${isOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+          <span
+            className={`block w-6 h-0.5 bg-brand-cream transition-transform duration-300 ${isOpen ? "rotate-45 translate-y-2" : ""}`}
+          ></span>
+          <span
+            className={`block w-6 h-0.5 bg-brand-cream transition-opacity duration-300 ${isOpen ? "opacity-0" : ""}`}
+          ></span>
+          <span
+            className={`block w-6 h-0.5 bg-brand-cream transition-transform duration-300 ${isOpen ? "-rotate-45 -translate-y-2" : ""}`}
+          ></span>
         </button>
       </div>
 
       {/* Mobile Menu Dropdown */}
-      <div 
-        className={`md:hidden absolute top-20 left-0 w-full bg-[#301B1A] transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? 'max-h-[400px] border-t border-brand-cream/10 opacity-100' : 'max-h-0 opacity-0'}`}
+      <div
+        className={`md:hidden absolute top-20 left-0 w-full bg-[#301B1A] transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? "max-h-[400px] border-t border-brand-cream/10 opacity-100" : "max-h-0 opacity-0"}`}
       >
         <ul className="flex flex-col items-center py-6 gap-6">
           {NAV_LINKS.map((link) => (
