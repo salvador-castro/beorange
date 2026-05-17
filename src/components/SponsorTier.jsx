@@ -22,6 +22,7 @@ export default function SponsorTier({ title, items, rowGapClass = "gap-12 md:gap
                   key={item.alt}
                   src={item.src}
                   alt={item.alt}
+                  loading="lazy"
                   className={`${item.heightClass} ${item.maxWidth} scale-125 md:scale-150 w-auto object-contain transition-transform hover:scale-[1.35] md:hover:scale-[1.6] duration-300`}
                 />
               );

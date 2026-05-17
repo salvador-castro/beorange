@@ -15,8 +15,9 @@ export default function Agenda() {
             Agenda
           </h2>
           <img
-            src="/recursos/monedaConAnteojos.png"
+            src="/recursos/monedaConAnteojos.webp"
             alt="Moneda con anteojos"
+            loading="lazy"
             className="w-16 h-16 md:w-20 md:h-20 object-contain animate-[spin_10s_linear_infinite] drop-shadow-xl"
           />
         </div>

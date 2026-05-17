@@ -46,8 +46,9 @@ export default function SinergiaVideo() {
         </video>
         <div className="absolute inset-0 bg-black/30 pointer-events-none"></div>
         <img
-          src="/logos/sinergia/sinergiaLogo.png"
+          src="/logos/sinergia/sinergiaLogo.webp"
           alt="Sinergia"
+          loading="lazy"
           className="absolute bottom-4 left-4 md:bottom-8 md:left-8 w-24 md:w-40 z-10 drop-shadow-2xl"
         />
       </div>

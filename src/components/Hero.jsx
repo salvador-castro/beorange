@@ -8,7 +8,7 @@ export default function Hero() {
         muted
         loop
         playsInline
-        preload="metadata"
+        preload="none"
         poster="/videos/hero-poster.jpg"
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
@@ -18,19 +18,19 @@ export default function Hero() {
       <div className="relative z-20 flex flex-col items-center max-w-4xl mx-auto px-6 py-24 pt-32">
         <div className="flex items-center gap-2 md:gap-4 mb-2 mt-12 md:mt-16">
           <img
-            src="/logos/roderich/logoRoderich.png"
+            src="/logos/roderich/logoRoderich.webp"
             alt="Roderich"
             className="h-7 md:h-10 brightness-0 invert"
           />
           <span className="text-white font-inter text-xs font-light self-end mb-1">&</span>
           <img
-            src="/logos/plugin/logoPlugin.png"
+            src="/logos/plugin/logoPlugin.webp"
             alt="Plugin"
             className="h-6 md:h-9 brightness-0 invert"
           />
           <span className="text-white font-inter text-xs font-light self-end mb-1">&</span>
           <img
-            src="/logos/tangram/tangramLogo.png"
+            src="/logos/tangram/tangramLogo.webp"
             alt="Tangram"
             className="h-8 md:h-11 brightness-0 invert"
           />
@@ -40,7 +40,7 @@ export default function Hero() {
         </p>
 
         <img
-          src="/logos/beorange/beorangelogo.png"
+          src="/logos/beorange/beorangelogo.webp"
           alt="Be Orange"
           className="w-full max-w-[80%] md:max-w-4xl mb-4 drop-shadow-lg"
         />
