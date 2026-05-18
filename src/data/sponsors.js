@@ -272,7 +272,7 @@ export const SPONSOR_TIERS = [
     title: "Partners Institucionales",
     items: [
       {
-        src: "/patrocinadores/partnersInstitucionales/embajadaEEUU.png",
+        src: "/patrocinadores/partnersInstitucionales/embajada.png",
         alt: "Embajada ROI",
         heightClass: "h-16",
         maxWidth: "max-w-[550px]",
