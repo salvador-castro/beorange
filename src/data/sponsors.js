@@ -246,7 +246,7 @@ export const SPONSOR_TIERS = [
         url: "https://www.instagram.com/herchain.uy/",
       },
       {
-        src: "/patrocinadores/supporters/mintelar.webp",
+        src: "/patrocinadores/supporters/mintelar.png",
         alt: "Mintelar",
         heightClass: "h-32",
         maxWidth: "max-w-[280px]",
@@ -260,7 +260,7 @@ export const SPONSOR_TIERS = [
         url: "https://www.linkedin.com/company/mujeres-en-crypto/posts/?feedView=all",
       },
       {
-        src: "/patrocinadores/supporters/pam.webp",
+        src: "/patrocinadores/supporters/pam.svg",
         alt: "Pamela-Gonzalez",
         heightClass: "h-32",
         maxWidth: "max-w-[280px]",
