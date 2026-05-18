@@ -24,7 +24,7 @@ export default function About() {
         {/* Left - Logo */}
         <div className="flex-1 flex justify-center md:justify-start relative w-full">
           <img
-            src="/logos/beorange/beorangelogo-subtitulo.webp"
+            src="/logos/beorange/beorangelogo-subtitulo.png"
             alt="Be Orange"
             loading="lazy"
             className="w-full max-w-[250px] md:max-w-[250px] lg:max-w-[550px] h-auto object-contain brightness-0 invert"
