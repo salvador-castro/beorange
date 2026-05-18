@@ -11,7 +11,7 @@ export default function EventCards() {
           <h3 className="font-lexend font-black text-3xl uppercase tracking-widest mb-4 leading-tight">
             Be Orange:
             <br />
-            The Bitcoiner's Meeting
+            The Bitcoiner Meeting
           </h3>
           <p className="font-bold text-xl leading-snug">
             Domingo 24 de mayo 2026
