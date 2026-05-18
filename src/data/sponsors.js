@@ -281,8 +281,8 @@ export const SPONSOR_TIERS = [
       {
         src: "/patrocinadores/partnersInstitucionales/utnBA.png",
         alt: "UTN BA",
-        heightClass: "h-36",
-        maxWidth: "max-w-[350px]",
+        heightClass: "h-16",
+        maxWidth: "max-w-[250px]",
         url: "https://frba.utn.edu.ar/",
       },
     ],
