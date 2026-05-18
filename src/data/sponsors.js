@@ -260,7 +260,7 @@ export const SPONSOR_TIERS = [
         url: "https://www.linkedin.com/company/mujeres-en-crypto/posts/?feedView=all",
       },
       {
-        src: "/patrocinadores/supporters/pam.svg",
+        src: "/patrocinadores/supporters/pam.png",
         alt: "Pamela-Gonzalez",
         heightClass: "h-32",
         maxWidth: "max-w-[280px]",
