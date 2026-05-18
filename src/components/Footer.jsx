@@ -26,13 +26,15 @@ export default function Footer() {
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="relative md:mr-8">
               <img
-                src="/recursos/monedaConAnteojos.png"
+                src="/recursos/monedaConAnteojos.webp"
                 alt="Bitcoin Contacto"
+                loading="lazy"
                 className="w-48 md:w-72 lg:w-80 drop-shadow-2xl relative z-10"
               />
               <img
-                src="/recursos/sobreEmail.png"
+                src="/recursos/sobreEmail.webp"
                 alt="Email"
+                loading="lazy"
                 className="absolute -bottom-4 -right-8 md:-bottom-8 md:-right-12 w-28 md:w-40 lg:w-48 drop-shadow-2xl z-20 hover:-translate-y-3 hover:scale-105 transition-all duration-300 cursor-pointer"
               />
             </div>

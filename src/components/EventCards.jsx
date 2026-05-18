@@ -22,13 +22,14 @@ export default function EventCards() {
 
         <div className="bg-brand-brown rounded-xl overflow-hidden relative flex items-center justify-center h-64 md:h-80 shadow-xl hover:-translate-y-2 transition-transform duration-300 group">
           <img 
-            src="/lugares/sinergia.png" 
-            alt="Sinergia background" 
+            src="/lugares/sinergia.webp"
+            alt="Sinergia background"
+            loading="lazy"
             className="absolute inset-0 w-full h-full object-cover z-0 group-hover:scale-110 transition-transform duration-700 opacity-60"
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-black/20 z-10 pointer-events-none"></div>
           <img
-            src="/logos/sinergia/sinergiaLogo.png"
+            src="/logos/sinergia/sinergiaLogo.webp"
             alt="Sinergia"
             className="w-48 relative z-20 group-hover:scale-110 transition-transform duration-500 drop-shadow-2xl"
           />

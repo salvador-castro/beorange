@@ -10,7 +10,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="shrink-0" onClick={() => setIsOpen(false)}>
           <img
-            src="/logos/beorange/beorangelogo.png"
+            src="/logos/beorange/beorangelogo.webp"
             alt="Be Orange"
             className="h-5 md:h-6 w-auto object-contain"
           />
