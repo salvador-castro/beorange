@@ -5,6 +5,7 @@ import EventCards from "./components/EventCards";
 import SinergiaVideo from "./components/SinergiaVideo";
 import Agenda from "./components/Agenda";
 import Sponsors from "./components/Sponsors";
+import HonoraryAlly from "./components/HonoraryAlly";
 import Organizers from "./components/Organizers";
 import Footer from "./components/Footer";
 
@@ -18,6 +19,7 @@ export default function App() {
       <SinergiaVideo />
       <Agenda />
       <Sponsors />
+      <HonoraryAlly />
       <Organizers />
       <Footer />
     </div>
