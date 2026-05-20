@@ -32,7 +32,7 @@ export default function Hero() {
           <img
             src="/logos/tangram/tangramLogo.webp"
             alt="Tangram"
-            className="h-8 md:h-10 brightness-0 invert"
+            className="h-14 md:h-16 brightness-0 invert"
           />
         </div>
         <p className="text-white font-inter text-xl md:text-2xl mb-8">

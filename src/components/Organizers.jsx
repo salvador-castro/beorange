@@ -18,7 +18,7 @@ export default function Organizers() {
                   src={org.logo}
                   alt={org.alt}
                   loading="lazy"
-                  className={`${org.logoClass ?? "w-48 h-16 md:w-56 md:h-20"} object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity mb-6`}
+                  className={`${org.logoClass ?? "h-16 md:h-20 w-auto"} object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity mb-6`}
                 />
               </a>
               <p className="text-gray-400 text-xl md:text-2xl leading-relaxed">
