@@ -17,8 +17,9 @@ export default function Sponsors() {
           <br className="hidden md:block" /> la innovación
         </h2>
         <p className="text-gray-500 font-medium text-lg max-w-2xl mx-auto">
-          Trabajamos junto a aliados que invierten en ideas, transformación y lo
-          que viene.
+          Trabajamos junto a aliados que invierten en ideas,
+          <br />
+          transformación y lo que viene.
         </p>
 
         <h3 className="font-black text-center text-2xl tracking-widest uppercase mb-8">SPONSORS</h3>
