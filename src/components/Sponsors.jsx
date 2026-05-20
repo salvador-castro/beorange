@@ -22,7 +22,7 @@ export default function Sponsors() {
           transformación y lo que viene.
         </p>
 
-        <h3 className="font-black text-center text-2xl tracking-widest uppercase mb-8">SPONSORS</h3>
+        <h3 className="font-black text-center text-2xl tracking-widest uppercase mt-6 mb-8">SPONSORS</h3>
 
         <div className="flex flex-col gap-16 items-center">
           {SPONSOR_TIERS.map((tier) => (
