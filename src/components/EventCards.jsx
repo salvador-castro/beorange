@@ -16,7 +16,7 @@ export default function EventCards() {
           <p className="font-bold text-xl leading-snug">
             Domingo 24 de mayo 2026
             <br />
-            14:30 a 20:30 hs
+            15:00 a 21:00 hs
           </p>
         </div>
 
