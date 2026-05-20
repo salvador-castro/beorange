@@ -138,7 +138,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="bg-[#f2f2f2] text-[var(--color-brand-dark)] hover:bg-white text-sm px-6 py-2.5 rounded-full font-medium transition-colors whitespace-nowrap inline-flex items-center"
               >
-                Registrate Gratis
+                Registrate
               </a>
             </div>
           </div>
