@@ -26,7 +26,7 @@ export default function Sponsors() {
 
         <div className="flex flex-col gap-16 items-center">
           {SPONSOR_TIERS.map((tier) => (
-            <SponsorTier key={tier.title} title={tier.title} items={tier.items} rowGapClass={tier.rowGapClass} />
+            <SponsorTier key={tier.title} title={tier.title} heightClass={tier.heightClass} items={tier.items} />
           ))}
         </div>
 
