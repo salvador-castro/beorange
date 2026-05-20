@@ -20,19 +20,19 @@ export default function Hero() {
           <img
             src="/logos/roderich/logoRoderich.webp"
             alt="Roderich"
-            className="h-7 md:h-10 brightness-0 invert"
+            className="h-8 md:h-10 brightness-0 invert"
           />
           <span className="text-white font-inter text-xs font-light self-end mb-1">&</span>
           <img
             src="/logos/plugin/logoPlugin.webp"
             alt="Plugin"
-            className="h-6 md:h-9 brightness-0 invert"
+            className="h-8 md:h-10 brightness-0 invert"
           />
           <span className="text-white font-inter text-xs font-light self-end mb-1">&</span>
           <img
             src="/logos/tangram/tangramLogo.webp"
             alt="Tangram"
-            className="h-8 md:h-11 brightness-0 invert"
+            className="h-8 md:h-10 brightness-0 invert"
           />
         </div>
         <p className="text-white font-inter text-xl md:text-2xl mb-8">
