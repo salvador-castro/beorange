@@ -16,7 +16,7 @@ export default function Hero() {
       </video>
 
       <div className="relative z-20 flex flex-col items-center max-w-4xl mx-auto px-6 py-24 pt-32">
-        <div className="flex items-center gap-2 md:gap-4 mb-2 mt-12 md:mt-16">
+        <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-2 md:gap-4 mb-2 mt-12 md:mt-16">
           <img
             src="/logos/roderich/logoRoderich.webp"
             alt="Roderich"
@@ -32,7 +32,7 @@ export default function Hero() {
           <img
             src="/logos/tangram/tangramLogo.webp"
             alt="Tangram"
-            className="h-14 md:h-16 brightness-0 invert"
+            className="h-10 md:h-16 brightness-0 invert"
           />
         </div>
         <p className="text-white font-inter text-xl md:text-2xl mb-8">
