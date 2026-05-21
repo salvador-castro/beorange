@@ -1,5 +1,12 @@
 export const SPONSOR_TIERS = [
   {
+    title: "OG",
+    heightClass: "h-40",
+    items: [
+      { src: "/patrocinadores/og/bybit.png", alt: "Bybit", url: "https://www.bybit.com/es-AR/register" },
+    ],
+  },
+  {
     title: "Early adopter",
     heightClass: "h-20",
     items: [
