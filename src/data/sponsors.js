@@ -22,7 +22,7 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/friendly/fakinBomb.webp", alt: "Fakin Bomb", url: "https://www.fakinbomb.com/" },
       { src: "/patrocinadores/friendly/baltLogo.webp", alt: "Balt", url: "https://jxlabs.xyz/balt" },
       { src: "/patrocinadores/friendly/birnariaLogo.webp", alt: "Bitnaria", url: "https://bitnaria.com", heightClass: "h-30" },
-      { src: "/patrocinadores/friendly/cafeHaus.png", alt: "Café Haüs", url: null },
+      { src: "/patrocinadores/friendly/cafeHaus.png", alt: "Café Haüs", url: null, heightClass: "h-28" },
     ],
   },
   {

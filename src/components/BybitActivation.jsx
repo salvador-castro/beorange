@@ -7,7 +7,7 @@ export default function BybitActivation() {
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="relative z-10 max-w-6xl mx-auto flex items-center min-h-[480px]">
-        <div className="flex flex-col justify-center px-10 py-12 md:px-16 w-full md:w-1/2 text-white">
+        <div className="flex flex-col justify-center px-10 pt-12 pb-16 md:px-16 w-full md:w-1/2 text-white">
           <p className="text-xs tracking-[0.25em] uppercase text-gray-400 mb-6">
             Activación Especial de HAÜS & Bybit
           </p>
