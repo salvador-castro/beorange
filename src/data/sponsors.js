@@ -5,7 +5,7 @@ export const SPONSOR_TIERS = [
     items: [
       { src: "/patrocinadores/earlyAdopter/hashrate.webp", alt: "Hashrate", url: "https://hashrate.space/es/" },
       { src: "/patrocinadores/earlyAdopter/spacedev.webp", alt: "SpaceDev", url: "https://spacedev.io/" },
-      { src: "/patrocinadores/earlyAdopter/escuelitaBitcoin.webp", alt: "Escuelita Bitcoin", url: "https://escuelitabitcoin.com/", heightClass: "h-28" },
+      { src: "/patrocinadores/earlyAdopter/escuelitaBitcoin.png", alt: "Escuelita Bitcoin", url: "https://escuelitabitcoin.com/", heightClass: "h-22" },
     ],
   },
   {
@@ -14,7 +14,7 @@ export const SPONSOR_TIERS = [
     items: [
       { src: "/patrocinadores/friendly/fakinBomb.webp", alt: "Fakin Bomb", url: "https://www.fakinbomb.com/" },
       { src: "/patrocinadores/friendly/baltLogo.webp", alt: "Balt", url: "https://jxlabs.xyz/balt" },
-      { src: "/patrocinadores/friendly/birnariaLogo.webp", alt: "Bitnaria", url: "https://bitnaria.com" },
+      { src: "/patrocinadores/friendly/birnariaLogo.webp", alt: "Bitnaria", url: "https://bitnaria.com", heightClass: "h-30" },
     ],
   },
   {
