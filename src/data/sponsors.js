@@ -43,7 +43,7 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/ecosystemPartners/clubDelInversor.png", alt: "Club Del Inversor", url: "https://clubdelinversor.uy/", heightClass: "h-24" },
       { src: "/patrocinadores/ecosystemPartners/blockchainSummitGlobal.png", alt: "Blockchain Summit Global", url: "https://blockchainsummit.global/en/", heightClass: "h-24" },
       { src: "/patrocinadores/ecosystemPartners/criptoGuardian.webp", alt: "Cripto Guardian", url: "https://criptoguardian.com/", heightClass: "h-28" },
-      { src: "/patrocinadores/ecosystemPartners/puntabitcoinLogo.webp", alt: "Punta Bitcoin", url: "https://www.puntabitcoin.uy/", heightClass: "h-28" },
+      { src: "/patrocinadores/ecosystemPartners/puntabitcoinLogo.webp", alt: "Punta Bitcoin", url: "https://www.puntabitcoin.uy/", heightClass: "h-26" },
 
     ],
   },
@@ -70,7 +70,7 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/supporters/herChain.webp", alt: "Her Chain", url: "https://www.instagram.com/herchain.uy/", heightClass: "h-46" },
       { src: "/patrocinadores/supporters/mintelar.png", alt: "Mintelar", url: "https://www.instagram.com/mintelarapp/", heightClass: "h-46" },
       { src: "/patrocinadores/supporters/mec.webp", alt: "MEC", url: "https://www.linkedin.com/company/mujeres-en-crypto/posts/?feedView=all", heightClass: "h-32" },
-      { src: "/patrocinadores/supporters/pam.png", alt: "Pamela-Gonzalez", url: "https://gonzalezperilli.com/", heightClass: "h-32" },
+      { src: "/patrocinadores/supporters/pam.png", alt: "Pamela-Gonzalez", url: "https://gonzalezperilli.com/", heightClass: "h-36" },
     ],
   },
   {
