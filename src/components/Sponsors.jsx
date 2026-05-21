@@ -2,7 +2,7 @@ import { SPONSOR_TIERS } from "../data/sponsors";
 import SponsorTier from "./SponsorTier";
 import BybitActivation from "./BybitActivation";
 
-const TIERS_BEFORE_ACTIVATION = ["Early adopter", "Friendly"];
+const TIERS_BEFORE_ACTIVATION = ["OG", "Early adopter", "Friendly"];
 
 export default function Sponsors() {
   const tiersBeforeActivation = SPONSOR_TIERS.filter((t) =>

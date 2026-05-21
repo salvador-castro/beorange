@@ -11,7 +11,7 @@ export default function HonoraryAlly() {
           Aliado honorífico
         </p>
 
-        <div className="flex justify-center items-center gap-12 md:gap-20 mb-16">
+        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-20 mb-16">
           <img
             src="/patrocinadores/aliados/labintconf.png"
             alt="LABITCONF"
