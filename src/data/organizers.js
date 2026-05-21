@@ -17,7 +17,7 @@ export const ORGANIZERS = [
     logo: '/logos/tangram/tangramLogo.webp',
     alt: 'Tangram',
     url: 'https://tangram.space/',
-    logoClass: 'h-28 md:h-32 w-auto',
+    logoClass: 'h-44 md:h-52 w-auto',
     description:
       'Estudio creativo a cargo de la dirección ejecutiva del evento, el desarrollo de la experiencia y la articulación de partners.'
   }

@@ -37,7 +37,7 @@ export default function Sponsors() {
 
           <div className="flex flex-col gap-16 items-center">
             {tiersBeforeActivation.map((tier) => (
-              <SponsorTier key={tier.title} title={tier.title} heightClass={tier.heightClass} items={tier.items} />
+              <SponsorTier key={tier.title} title={tier.title} heightClass={tier.heightClass} items={tier.items} columns={tier.columns} />
             ))}
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function Sponsors() {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col gap-16 items-center">
             {tiersAfterActivation.map((tier) => (
-              <SponsorTier key={tier.title} title={tier.title} heightClass={tier.heightClass} items={tier.items} />
+              <SponsorTier key={tier.title} title={tier.title} heightClass={tier.heightClass} items={tier.items} columns={tier.columns} />
             ))}
           </div>
 

@@ -22,12 +22,13 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/friendly/fakinBomb.webp", alt: "Fakin Bomb", url: "https://www.fakinbomb.com/" },
       { src: "/patrocinadores/friendly/baltLogo.webp", alt: "Balt", url: "https://jxlabs.xyz/balt" },
       { src: "/patrocinadores/friendly/birnariaLogo.webp", alt: "Bitnaria", url: "https://bitnaria.com", heightClass: "h-30" },
-      { src: "/patrocinadores/friendly/cafeHaus.png", alt: "Café Haüs", url: null, heightClass: "h-28" },
+      { src: "/patrocinadores/friendly/cafeHaus.png", alt: "Café Haüs", url: null, heightClass: "h-40" },
     ],
   },
   {
     title: "Ecosystem Partners",
     heightClass: "h-16",
+    columns: 4,
     items: [
       { src: "/patrocinadores/ecosystemPartners/blockchainRIO.webp", alt: "Blockchain RIO", url: "https://blockchainrio.com.br" },
       { src: "/patrocinadores/ecosystemPartners/bitcoinAR.webp", alt: "Bitcoin AR", url: "https://bitcoin.ar" },
@@ -41,11 +42,15 @@ export const SPONSOR_TIERS = [
       { src: "/patrocinadores/ecosystemPartners/laBitcoinetaLogo.webp", alt: "La Bitcoineta", url: "https://www.bitcoin4humanity.org/bitcoineta", heightClass: "h-24" },
       { src: "/patrocinadores/ecosystemPartners/clubDelInversor.png", alt: "Club Del Inversor", url: "https://clubdelinversor.uy/", heightClass: "h-24" },
       { src: "/patrocinadores/ecosystemPartners/blockchainSummitGlobal.png", alt: "Blockchain Summit Global", url: "https://blockchainsummit.global/en/" },
+      { src: "/patrocinadores/ecosystemPartners/criptoGuardian.webp", alt: "Cripto Guardian", url: "https://criptoguardian.com/" },
+      { src: "/patrocinadores/ecosystemPartners/puntabitcoinLogo.webp", alt: "Punta Bitcoin", url: "https://www.puntabitcoin.uy/" },
+
     ],
   },
   {
     title: "Media Partners",
     heightClass: "h-20",
+    columns: 4,
     items: [
       { src: "/patrocinadores/mediaPartners/bitcoinArgentina.webp", alt: "Bitcoin Argentina", url: "https://www.bitcoinarg.news/" },
       { src: "/patrocinadores/mediaPartners/canalMutuo.webp", alt: "Canal Mutuo", url: "http://canalmutuo.com/" },
@@ -55,23 +60,15 @@ export const SPONSOR_TIERS = [
     ],
   },
   {
-    title: "Partners",
-    heightClass: "h-28",
-    items: [
-      { src: "/patrocinadores/partners/criptoGuardian.webp", alt: "Cripto Guardian", url: "https://criptoguardian.com/" },
-      { src: "/patrocinadores/partners/puntabitcoinLogo.webp", alt: "Punta Bitcoin", url: "https://www.puntabitcoin.uy/" },
-    ],
-  },
-  {
     title: "Supporters",
     heightClass: "h-20",
     items: [
       { src: "/patrocinadores/supporters/moneyOnChain.webp", alt: "Money On Chain", url: "https://moneyonchain.com/es/", heightClass: "h-32" },
       { src: "/patrocinadores/supporters/latamCriptoMom.webp", alt: "Latam Cripto Mom", url: "https://www.youtube.com/@latamcriptomom", heightClass: "h-32" },
       { src: "/patrocinadores/supporters/humanity.webp", alt: "Humanity", url: "https://www.bitcoin4humanity.org/" },
-      { src: "/patrocinadores/supporters/criptoSpace.webp", alt: "Cripto Space", url: null, heightClass: "h-32" },
-      { src: "/patrocinadores/supporters/herChain.webp", alt: "Her Chain", url: "https://www.instagram.com/herchain.uy/", heightClass: "h-32" },
-      { src: "/patrocinadores/supporters/mintelar.png", alt: "Mintelar", url: "https://www.instagram.com/mintelarapp/", heightClass: "h-32" },
+      { src: "/patrocinadores/supporters/criptoSpace.webp", alt: "Cripto Space", url: null, heightClass: "h-44" },
+      { src: "/patrocinadores/supporters/herChain.webp", alt: "Her Chain", url: "https://www.instagram.com/herchain.uy/", heightClass: "h-44" },
+      { src: "/patrocinadores/supporters/mintelar.png", alt: "Mintelar", url: "https://www.instagram.com/mintelarapp/", heightClass: "h-44" },
       { src: "/patrocinadores/supporters/mec.webp", alt: "MEC", url: "https://www.linkedin.com/company/mujeres-en-crypto/posts/?feedView=all", heightClass: "h-32" },
       { src: "/patrocinadores/supporters/pam.png", alt: "Pamela-Gonzalez", url: "https://gonzalezperilli.com/", heightClass: "h-32" },
     ],

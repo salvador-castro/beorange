@@ -7,7 +7,7 @@ export default function Organizers() {
         <p className="text-left font-lexend text-2xs md:text-3xs tracking-[0.4em] uppercase text-white-500 mb-16">
           Organizado por
         </p>
-        <div className="flex flex-col md:flex-row justify-center items-start gap-16 md:gap-32">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-16 md:gap-32">
           {ORGANIZERS.map((org) => (
             <div
               key={org.alt}
