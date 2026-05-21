@@ -5,7 +5,7 @@ export const SPONSOR_TIERS = [
     items: [
       { src: "/patrocinadores/earlyAdopter/hashrate.webp", alt: "Hashrate", url: "https://hashrate.space/es/" },
       { src: "/patrocinadores/earlyAdopter/spacedev.webp", alt: "SpaceDev", url: "https://spacedev.io/" },
-      { src: "/patrocinadores/earlyAdopter/escuelitaBitcoin.webp", alt: "Escuelita Bitcoin", url: "https://escuelitabitcoin.com/" },
+      { src: "/patrocinadores/earlyAdopter/escuelitaBitcoin.webp", alt: "Escuelita Bitcoin", url: "https://escuelitabitcoin.com/", heightClass: "h-28" },
     ],
   },
   {
