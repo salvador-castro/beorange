@@ -1,4 +1,4 @@
-export default function SponsorTier({ title, heightClass, items }) {
+export default function SponsorTier({ title, heightClass, items, columns = 3 }) {
   return (
     <div className="w-full">
       <div className="flex justify-center mb-10 w-full">
@@ -19,7 +19,7 @@ export default function SponsorTier({ title, heightClass, items }) {
             />
           );
           return (
-            <div key={item.alt} className="flex items-center justify-center w-1/2 md:w-1/3">
+            <div key={item.alt} className={`flex items-center justify-center w-1/2 ${columns === 4 ? "md:w-1/4" : "md:w-1/3"}`}>
               {item.url ? (
                 <a href={item.url} target="_blank" rel="noopener noreferrer">
                   {img}
