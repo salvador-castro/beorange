@@ -44,7 +44,7 @@ export default function BybitActivation() {
             <p className="font-bold text-white">Cupos sujetos a disponibilidad.</p>
           </div>
           <a
-            href="https://www.bybit.com/es-AR/register"
+            href="https://www.bybit.com/invite?ref=XGZEAQD"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center bg-[#F2902A] text-white px-8 py-3 rounded-full font-medium hover:bg-[#e07820] transition-colors w-fit"
