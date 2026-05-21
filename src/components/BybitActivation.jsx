@@ -20,7 +20,7 @@ export default function BybitActivation() {
             <img
               src="/patrocinadores/friendly/cafeHaus.png"
               alt="Café Haüs"
-              className="h-16 object-contain brightness-0 invert"
+              className="h-24 object-contain brightness-0 invert"
             />
           </div>
           <h2 className="text-4xl md:text-5xl font-black leading-tight mb-1">
