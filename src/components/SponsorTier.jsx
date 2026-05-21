@@ -1,9 +1,4 @@
-export default function SponsorTier({ title, items, rowGapClass = "gap-12 md:gap-20" }) {
-  const rows = [];
-  for (let i = 0; i < items.length; i += 3) {
-    rows.push(items.slice(i, i + 3));
-  }
-
+export default function SponsorTier({ title, heightClass, items }) {
   return (
     <div className="w-full">
       <div className="flex justify-center mb-10 w-full">
@@ -13,32 +8,26 @@ export default function SponsorTier({ title, items, rowGapClass = "gap-12 md:gap
           </h3>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-12 md:gap-16">
-        {rows.map((row, rowIndex) => (
-          <div key={rowIndex} className={`flex flex-wrap justify-center items-center ${rowGapClass}`}>
-            {row.map((item) => {
-              const img = (
-                <img
-                  key={item.alt}
-                  src={item.src}
-                  alt={item.alt}
-                  loading="lazy"
-                  className={`${item.heightClass} ${item.maxWidth} scale-125 md:scale-150 w-auto object-contain transition-transform hover:scale-[1.35] md:hover:scale-[1.6] duration-300`}
-                />
-              );
-              return item.url ? (
-                <a
-                  key={item.alt}
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+      <div className="flex flex-wrap justify-center w-full gap-y-12 md:gap-y-16">
+        {items.map((item) => {
+          const img = (
+            <img
+              src={item.src}
+              alt={item.alt}
+              loading="lazy"
+              className={`${item.heightClass ?? heightClass} w-auto object-contain`}
+            />
+          );
+          return (
+            <div key={item.alt} className="flex items-center justify-center w-1/2 md:w-1/3">
+              {item.url ? (
+                <a href={item.url} target="_blank" rel="noopener noreferrer">
                   {img}
                 </a>
-              ) : img;
-            })}
-          </div>
-        ))}
+              ) : img}
+            </div>
+          );
+        })}
       </div>
     </div>
   );
