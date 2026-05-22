@@ -14,7 +14,7 @@ export const ORGANIZERS = [
       'Productora y agencia uruguaya enfocada en tecnología, cultura y ecosistema. Produce eventos, activa comunidades y conecta proyectos con las personas que les dan sentido.'
   },
   {
-    logo: '/logos/tangram/tangramLogo.webp',
+    logo: '/logos/tangram/tangramLogo.png',
     alt: 'Tangram',
     url: 'https://tangram.space/',
     logoClass: 'w-72 md:w-96 h-auto',
